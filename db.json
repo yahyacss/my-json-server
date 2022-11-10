@@ -1,0 +1,49 @@
+{
+   "vehicle":{
+      "Data":[
+         {
+            "VehicleId":"1128",
+            "AccountId":"159",
+            "AccountName":"Bridgestone Tyre Centre",
+            "VehiclePlate":"PLC788",
+            "VehicleCode":"BT1",
+            "FleetName":"",
+            "Make":"",
+            "Model":"",
+            "IsPowered":"True",
+            "RucLicenseType":"D",
+            "RucLicenseVehicleType":"1",
+            "RucMonkeyVehicleTypeId":"2",
+            "RucMonkeyVehicleTypeName":"Light Diesel Vehicle",
+            "RuchoPending":"False",
+            "AutoRenewalEnabled":"True",
+            "AutoRenewalKms":"250",
+            "AutoRenewalUnitsRequired":"2000",
+            "AutoRenewalFail":"False",
+            "AutoRenewalFailReason":"",
+            "IsEnabled":"True",
+            "BillingStatusId":"2",
+            "BillingStatusName":"Billable",
+            "Odometer":"48.200",
+            "LastReadingTime":"2022-11-10T22:35:55+13:00",
+            "RucLicenseId":"35735",
+            "RucLicenseNumber":"715132899",
+            "RucLicenseStartDistance":"25",
+            "RucLicenseEndDistance":"2025",
+            "ElectronicDistanceRecorderNumber":"675295076",
+            "HeadunitId":"200320",
+            "DistanceUnit":"Kilometers"
+         }
+      ],
+      "Paging":{
+         "PageNumber":1,
+         "PageSize":100,
+         "TotalNumberOfPages":1,
+         "TotalNumberOfRecords":1,
+         "First":"https://api.rucmonkey.co.nz/ruc/v3/vehicle?pageNo=1&pageSize=100",
+         "Previous":null,
+         "Next":null,
+         "Last":"https://api.rucmonkey.co.nz/ruc/v3/vehicle?pageNo=1&pageSize=100"
+      }
+   }
+}
