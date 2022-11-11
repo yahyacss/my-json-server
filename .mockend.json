@@ -1,14 +1,35 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+  "Vehicle": {
+      "VehicleId": { "string": {} },
+      "AccountId": { "string": {} },
+      "AccountName": { "string": {} },
+      "VehiclePlate": { "string": {} },
+      "VehicleCode": { "string": {} },
+      "FleetName": { "string": {} },
+      "Make": { "string": {} },
+      "Model": { "string": {} },
+      "IsPowered": { "string": {} },
+      "RucLicenseType": { "string": {} },
+      "RucLicenseVehicleType": { "string": {} },
+      "RucMonkeyVehicleTypeId": { "string": {} },
+      "RucMonkeyVehicleTypeName": { "string": {} },
+      "RuchoPending": { "string": {} },
+      "AutoRenewalEnabled": { "string": {} },
+      "AutoRenewalKms": { "string": {} },
+      "AutoRenewalUnitsRequired": { "string": {} },
+      "AutoRenewalFail": { "string": {} },
+      "AutoRenewalFailReason": { "string": {} },
+      "IsEnabled": { "string": {} },
+      "BillingStatusId": { "string": {} },
+      "BillingStatusName": { "string": {} },
+      "Odometer": { "string": {} },
+      "LastReadingTime": { "string": {} },
+      "RucLicenseId": { "string": {} },
+      "RucLicenseNumber": { "string": {} },
+      "RucLicenseStartDistance": { "string": {} },
+      "RucLicenseEndDistance": { "string": {} },
+      "ElectronicDistanceRecorderNumber": { "string": {} },
+      "HeadunitId": { "string": {} },
+      "DistanceUnit": { "string": {} }
   }
 }
