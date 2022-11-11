@@ -16504,9 +16504,9 @@
 ],
       "Paging":{
          "PageNumber":1,
-         "PageSize":100,
-         "TotalNumberOfPages":1,
-         "TotalNumberOfRecords":1,
+         "PageSize":500,
+         "TotalNumberOfPages":3,
+         "TotalNumberOfRecords":1324,
          "First":"https://api.rucmonkey.co.nz/ruc/v3/vehicle?pageNo=1&pageSize=100",
          "Previous":null,
          "Next":null,
